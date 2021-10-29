@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  position: relative;
+}
+
+.head {
+  background-color: white;
+  width: 600px;
+  border: 6px solid red;
+  font-size: 30px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  color: maroon;
+  text-shadow: 1px 1px 5px purple;
+  padding: 15px 0;
+  box-shadow: 8px 8px purple;
+}
+
+hr {
+  margin-top: 8px;
+}
+
+.middle {
+  border: 6px solid green;
+  position: relative;
+  height: 700px;
+}
+
+.box {
+  height: 250px;
+  width: 240px;
+  box-shadow: 8px 8px purple;
+  text-shadow: 1px 1px 5px purple;
+  border: 8px solid red;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.box img {
+  height: 150px;
+  width: 170px;
+  margin: 30px 20px 10px 15px;
+}
+
+#box3 {
+  position: absolute;
+  right: 80px;
+  top: 0;
+}
+
+#box4 {
+  position: absolute;
+  right: 80px;
+  bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#box4 h2,
+p {
+  margin-top: 15px;
+}
+
+input {
+  text-align: center;
+}
+
+button {
+  border-radius: 20px;
+  padding: 0 2px;
+  background-color: red;
+}
+
+#box2 {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  text-transform: uppercase;
+}
+
+#box2 h2 {
+  margin-top: 15px;
+}
+
+#box1 {
+  text-align: center;
+}
+
+#box1 h2 {
+  margin-top: 15px;
+}
+
+.last {
+  border: 5px solid purple;
+  background-color: green;
+  height: 600px;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.last > p {
+  text-transform: capitalize;
+  font-weight: bolder;
+  font-size: 35px;
+}
+
+.card {
+  background-color: rgb(240, 230, 140);
+  padding: 20px 0;
+  margin: 7px;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+#card1 {
+  float: left;
+  width: 48%;
+  height: 244px;
+}
+
+#card2 {
+  float: right;
+  width: 48%;
+}
+
+#card3 {
+  clear: both;
+}
+
+.static {
+  position: fixed;
+  border: 6px solid red;
+  box-shadow: 8px 8px purple;
+  border-radius: 15px;
+  color: rgb(177, 28, 28);
+  top: 580px;
+  left: 450px;
+  font-size: 20px;
+  width: 610px;
+  display: flex;
+  justify-content: space-around;
+  background-color: yellowgreen;
+  font-weight: bold;
+  padding: 10px;
+}
